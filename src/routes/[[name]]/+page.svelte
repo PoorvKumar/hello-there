@@ -8,7 +8,7 @@
 	{#await data.streamed.greeting}
 		<p class="animate-pulse text-8xl">👋</p>
 	{:then greeting}
-		{@html greeting}
+		<p class="text-center"> {@html greeting} </p>
 	{/await}
 </div>
 
